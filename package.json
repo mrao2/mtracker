@@ -1,7 +1,7 @@
 {
   "name": "mtracker",
   "version": "0.1.0",
-  "homepage": "https://mrao.github.io/mtracker",
+  "homepage": "https://mrao2.github.io/mtracker/",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
