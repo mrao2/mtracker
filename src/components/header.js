@@ -9,7 +9,7 @@ const Header = () => {
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href='/'>Money-Tracker</a>
+        <a href='/mtracker'>Money-Tracker</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
