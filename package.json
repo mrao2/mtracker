@@ -1,11 +1,12 @@
 {
   "name": "mtracker",
   "version": "0.1.0",
-  "homepage": "https://mrao2.github.io/mtracker/",
+  "homepage": "https://mrao2.github.io/mtracker",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
+    "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.2.0",
     "react-google-login": "^3.1.0",
     "react-redux": "^5.0.7",
@@ -18,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
