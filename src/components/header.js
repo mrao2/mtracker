@@ -14,10 +14,10 @@ const Header = () => {
       <Navbar.Toggle />
     </Navbar.Header>
       <Nav>
-      <NavItem eventKey={1} href="/">
+      <NavItem eventKey={1} href="/mtracker">
         Home
       </NavItem>
-      <NavItem eventKey={2} href="/Dashboard">
+      <NavItem eventKey={2} href="/mtracker/Dashboard">
         Dashboard
       </NavItem>
       </Nav>
